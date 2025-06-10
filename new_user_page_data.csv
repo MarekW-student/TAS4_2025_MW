@@ -1,0 +1,6 @@
+﻿test case,login_name,password,comment,final_confirmation_type,parameter1,parameter2
+150,67133ckp@gmail.com,,existing user but empty password,alert,Please fill out Username and Password.,
+151,67133ckp@gmail.com,asas1234,existing user and correct password,alert,This user already exist.,
+152,##FAKER(name)##,,new user generated but no password ,alert,Please fill out Username and Password.,
+153,,##FAKER(password)##,empty user and password generated ,alert,Please fill out Username and Password.,
+154,##FAKER(name)##,##FAKER(password)##,new user and password generated ,alert,Sign up successful.,

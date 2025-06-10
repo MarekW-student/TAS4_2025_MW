@@ -1,0 +1,6 @@
+﻿test case,login_name,password,comment,final_confirmation_type,parameter1,parameter2
+100,67133ckp@gmail.com,_,existing user but wrong password,alert,Wrong password.,
+101,67133ckp@gmail.com,,existing user but empty password,alert,Please fill out Username and Password.,
+102,Lelek Paduba,asjk#siu48sn,not existsing user,alert,User does not exist.,
+103,Lelek Paduba,,not existsing user and empty password,alert,Please fill out Username and Password.,
+104,67133ckp@gmail.com,asas1234,existing user and password ok,locator.text,"By.ID, ""nameofuser""",Welcome 67133ckp@gmail.com
