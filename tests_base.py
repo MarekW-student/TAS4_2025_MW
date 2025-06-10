@@ -148,7 +148,7 @@ class BaseForTests(unittest.TestCase):
 
     def find_locator_and_send_keys(self, section, key, send_keys ):
         self.waiter = self.find_locator(section,key)
-        self.log("trying to send keys: '%s'" %() send_keys )
+        self.log("trying to send keys: '%s'" %( send_keys ))
         try:
             self.waiter.send_keys(send_keys)
             self.log_success()
