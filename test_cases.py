@@ -40,6 +40,7 @@ from time import sleep
 # - return True if test with testnumber should be skipped for faster debuggin
 # 
 
+
 MAIN_PAGE_SECTION = 'main_page'
 LOGIN_PAGE_SECTION = 'login_page'
 NEW_USER_PAGE_SECTION = 'new_user_page'
